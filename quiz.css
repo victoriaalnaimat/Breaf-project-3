@@ -98,18 +98,20 @@ body {
 .btn {
     background-color: var(--line-border-color);
     border-radius: 0.5rem;
-    border: none;
+    border: 0.6vw double #ecb6dd6e;
     color: #fff;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 1.4vw;
     margin: 0 0.5rem;
-    padding: 1rem 2rem;
-    transition: background-color 0.5s, transform 0.5s;
+    padding: 0.6vw 2.5vw;
+    transition: background-color 0.5s, transform 0.5s;margin-top: 1vw;
 }
 
 .btn:active {
     transform: scale(0.9);
-    background-color: var(--button-active-color);
+    background-color: var(--disabled-line-border);
+    color: #911647;
+    border-color: #911647;
 }
 
 .btn:focus {
