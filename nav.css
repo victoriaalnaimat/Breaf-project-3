@@ -14,7 +14,7 @@ a{
 }
 a:hover{color: #796b13;}
 
-body {background-image: url(img/app\ store.jpg);}
+body {background-image: url(img/app\3.jpg);}
 header{
         background-color: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(7px) saturate(160%) contrast(45%) brightness(140%);
