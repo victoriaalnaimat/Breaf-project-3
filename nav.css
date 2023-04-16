@@ -12,7 +12,7 @@ a{
     color: #3c3e41;
     text-decoration: none;
 }
-a:hover{color: #D000F7;}
+a:hover{color: #796b13;}
 
 body {background-image: url(img/app\ store.jpg);}
 header{
@@ -26,10 +26,10 @@ header{
     border-bottom: 1px solid #dce1e4;
     display: grid;
     grid-template-columns: 30% 70%;
-    z-index: 1;
+    z-index: 1;width: 100%;
 }
 header .logo img{
-    height: 50px;
+    height: 3vw;border-radius: 20%;border: #b39a1c double;
 }
 header ul{
     margin: 0;
@@ -98,7 +98,7 @@ header input{display: none;}
 /*footer*/
 ending {position: absolute; bottom: 1px;width: 100%;
     background: #b0ceef;
-    background: linear-gradient(to right, #3b5270, #ce7bbb);
+    background: linear-gradient(to right, #3b5270, #c3ce7b);
 }
 ending footer {
     background-color: rgba(255, 255, 255, 0.2);
